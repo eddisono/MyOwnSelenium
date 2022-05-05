@@ -13,10 +13,9 @@ public class Youtube {
         System.setProperty("webdriver.chrome.driver", Utils.CHROME_DRIVER_LOCATION);
     }
 
-    @Test(testName = "Submit a WebForm")
+    @Test(testName = "Time for some music")
     public static void submitForm(){
         driver.get(Utils.BASE_URL);
-
     }
 
     @AfterSuite
